@@ -132,7 +132,7 @@ section, header, nav, footer {
 }
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   gap: 12px;
   margin-top: 15px;
 }
@@ -156,4 +156,7 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 16px;
+}
+nav {
+  justify-content: center;
 }
