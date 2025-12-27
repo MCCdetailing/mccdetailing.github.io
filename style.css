@@ -9,6 +9,25 @@ body, h1, h2, p, a {
 .centered {
   text-align: center;
 }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* centers everything inside */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0073e6;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
 /* Container to limit width */
 .container {
