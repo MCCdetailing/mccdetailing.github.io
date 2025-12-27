@@ -130,3 +130,14 @@ section, header, nav, footer {
   max-width: 900px;
   margin: 0 auto;
 }
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.photo-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
