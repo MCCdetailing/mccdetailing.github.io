@@ -141,3 +141,9 @@ section, header, nav, footer {
   width: 100%;
   border-radius: 10px;
 }
+/* Image sizing fix */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
